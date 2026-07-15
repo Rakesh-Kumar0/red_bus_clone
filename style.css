@@ -21,3 +21,63 @@ body{
     position: fixed;
     width: 100%;
 }
+
+.nav_container{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.nav_container > .redbus_logo {
+  width: 5rem;
+}
+
+/* navbar middle section */
+.nav_middle_section{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    margin: auto;
+    font-size: small;
+}
+
+.nav_middle_section > li{
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.nav_middle_section :hover,
+.nav_right_section :hover {
+  background-color: #f0f0f0;
+}
+
+.nav_right_section {
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  font-size: small;
+}
+.nav_middle_section > li > img {
+  width: 2rem;
+  margin: auto;
+}
+
+.nav_right_section > li {
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.nav_right_section >li >img{
+    width: 2rem;
+    margin: auto;
+}
